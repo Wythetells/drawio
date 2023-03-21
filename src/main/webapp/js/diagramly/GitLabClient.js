@@ -41,7 +41,10 @@ GitLabClient.prototype.maxFileSize = 10000000 /*10MB*/;
  */
 GitLabClient.prototype.authToken = 'Bearer';
 
-GitLabClient.prototype.redirectUri = window.location.protocol + '//' + window.location.host + '/gitlab';
+// GitLabClient.prototype.redirectUri = window.location.protocol + '//' + window.location.host + '/gitlab';
+	
+
+GitLabClient.prototype.redirectUri = window.location.protocol + '//' + window.location.host + '/gitlab.html';
 
 /**
  * Authorizes the client, gets the userId and calls <open>.
